@@ -11,39 +11,38 @@
 <body>
     <center>
         <table border="5">
-            <th>
-                <div>
-                    <a href="Inicio.html">Inicio</a>
-                    <a href="Ejercicio1.html">Ejercicio 1</a>
-                    <a href="Ejercicio2.html">Ejercicio 2</a>
-                    <a href="Ejercicio3.html">Ejercicio 3</a>
-                    <a href="Ejercicio4.html">Ejercicio 4</a>
-                    <a href="Ejercicio5.html">Ejercicio 5</a>
-                    <a href="Ejercicio6.html">Ejercicio 6</a>
-                    <a href="Ejercicio7.html">Ejercicio 7</a>
-                    <a href="Ejercicio8.html">Ejercicio 8</a>
-                    <a href="Ejercicio9.html">Ejercicio 9</a>
-                    <a href="Ejercicio10.html">Ejercicio 10</a>
-                </div>
-            </th>
+
+            <div>
+                <td><a href="Inicio.html">Inicio</a></td>
+                <td><a href="Ejercicio1.html">Ejercicio 1</a></td>
+                <td><a href="Ejercicio2.html">Ejercicio 2</a></td>
+                <td><a href="Ejercicio3.html">Ejercicio 3</a></td>
+                <td><a href="Ejercicio4.html">Ejercicio 4</a></td>
+                <td><a href="Ejercicio5.html">Ejercicio 5</a></td>
+                <td><a href="Ejercicio6.html">Ejercicio 6</a></td>
+                <td><a href="Ejercicio7.html">Ejercicio 7</a></td>
+                <td><a href="Ejercicio8.html">Ejercicio 8</a></td>
+                <td><a href="Ejercicio9.html">Ejercicio 9</a></td>
+                <td><a href="Ejercicio10.html">Ejercicio 10</a></td>
+            </div>
         </table>
-    <h1>Ejercicio 9 : Suma de números</h1>
-    <script>
-        // Pedir al usuario que ingrese una lista de números separados por comas
-        var numerosStr = prompt("Ingresa una lista de números separados por comas:");
+        <h1>Ejercicio 9 : Suma de números</h1>
+        <script>
+            // Pedir al usuario que ingrese una lista de números separados por comas
+            var numerosStr = prompt("Ingresa una lista de números separados por comas:");
 
-        // Convertir la cadena a un array de números
-        var numeros = numerosStr.split(",").map(Number);
+            // Convertir la cadena a un array de números
+            var numeros = numerosStr.split(",").map(Number);
 
-        // Calcular la suma
-        var suma = 0;
-        for (var i = 0; i < numeros.length; i++) {
-            suma += numeros[i];
-        }
+            // Calcular la suma
+            var suma = 0;
+            for (var i = 0; i < numeros.length; i++) {
+                suma += numeros[i];
+            }
 
-        // Mostrar el resultado
-        document.write("<p>La suma de los números es: " + suma+"</p>");
-    </script>
+            // Mostrar el resultado
+            document.write("<p>La suma de los números es: " + suma + "</p>");
+        </script>
     </center>
 </body>
 
